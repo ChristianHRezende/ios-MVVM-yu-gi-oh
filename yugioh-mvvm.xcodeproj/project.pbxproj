@@ -9,21 +9,46 @@
 /* Begin PBXBuildFile section */
 		AE2D94572981A182003E5EB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2D94562981A182003E5EB6 /* AppDelegate.swift */; };
 		AE2D94592981A182003E5EB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2D94582981A182003E5EB6 /* SceneDelegate.swift */; };
-		AE2D945B2981A182003E5EB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2D945A2981A182003E5EB6 /* ViewController.swift */; };
-		AE2D945E2981A182003E5EB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE2D945C2981A182003E5EB6 /* Main.storyboard */; };
 		AE2D94602981A184003E5EB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE2D945F2981A184003E5EB6 /* Assets.xcassets */; };
 		AE2D94632981A184003E5EB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE2D94612981A184003E5EB6 /* LaunchScreen.storyboard */; };
+		AE2D94762981BF46003E5EB6 /* CardImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2D94752981BF46003E5EB6 /* CardImage.swift */; };
+		AE2D94782981BFD0003E5EB6 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2D94772981BFD0003E5EB6 /* Card.swift */; };
+		AE2D947A2981C0C3003E5EB6 /* CardResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2D94792981C0C3003E5EB6 /* CardResponse.swift */; };
+		AE2D947C2981C99F003E5EB6 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2D947B2981C99F003E5EB6 /* Service.swift */; };
+		AE2D947F2981CB6B003E5EB6 /* CustomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2D947E2981CB6B003E5EB6 /* CustomError.swift */; };
+		AE2D94812981CC10003E5EB6 /* CardService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2D94802981CC10003E5EB6 /* CardService.swift */; };
+		AEB1A54D299439AE00424D3A /* ViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB1A54C299439AE00424D3A /* ViewState.swift */; };
+		AEB1A54F29943A2A00424D3A /* RequestDelegateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB1A54E29943A2A00424D3A /* RequestDelegateProtocol.swift */; };
+		AEB1A55129943A8400424D3A /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB1A55029943A8400424D3A /* HomeViewModel.swift */; };
+		AEB1A55329943B5F00424D3A /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB1A55229943B5F00424D3A /* Types.swift */; };
+		AEB1A5562995668100424D3A /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = AEB1A5552995668100424D3A /* SnapKit */; };
+		AEB1A558299566D300424D3A /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB1A557299566D300424D3A /* HomeViewController.swift */; };
+		AEB1A55A29956D9500424D3A /* CardListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB1A55929956D9500424D3A /* CardListCell.swift */; };
+		AEB1A55D29956DDB00424D3A /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = AEB1A55C29956DDB00424D3A /* Kingfisher */; };
+		AEB1A560299572CD00424D3A /* AppController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB1A55F299572CD00424D3A /* AppController.swift */; };
+		AEB1A5632995736300424D3A /* ProgressHUD in Frameworks */ = {isa = PBXBuildFile; productRef = AEB1A5622995736300424D3A /* ProgressHUD */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		AE2D94532981A182003E5EB6 /* yugioh-mvvm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "yugioh-mvvm.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE2D94562981A182003E5EB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AE2D94582981A182003E5EB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AE2D945A2981A182003E5EB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AE2D945D2981A182003E5EB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE2D945F2981A184003E5EB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE2D94622981A184003E5EB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE2D94642981A184003E5EB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE2D94752981BF46003E5EB6 /* CardImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardImage.swift; sourceTree = "<group>"; };
+		AE2D94772981BFD0003E5EB6 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		AE2D94792981C0C3003E5EB6 /* CardResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardResponse.swift; sourceTree = "<group>"; };
+		AE2D947B2981C99F003E5EB6 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		AE2D947E2981CB6B003E5EB6 /* CustomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomError.swift; sourceTree = "<group>"; };
+		AE2D94802981CC10003E5EB6 /* CardService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardService.swift; sourceTree = "<group>"; };
+		AEB1A54C299439AE00424D3A /* ViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewState.swift; sourceTree = "<group>"; };
+		AEB1A54E29943A2A00424D3A /* RequestDelegateProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestDelegateProtocol.swift; sourceTree = "<group>"; };
+		AEB1A55029943A8400424D3A /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		AEB1A55229943B5F00424D3A /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		AEB1A557299566D300424D3A /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		AEB1A55929956D9500424D3A /* CardListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardListCell.swift; sourceTree = "<group>"; };
+		AEB1A55F299572CD00424D3A /* AppController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +56,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AEB1A5632995736300424D3A /* ProgressHUD in Frameworks */,
+				AEB1A55D29956DDB00424D3A /* Kingfisher in Frameworks */,
+				AEB1A5562995668100424D3A /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +84,130 @@
 		AE2D94552981A182003E5EB6 /* yugioh-mvvm */ = {
 			isa = PBXGroup;
 			children = (
-				AE2D94562981A182003E5EB6 /* AppDelegate.swift */,
-				AE2D94582981A182003E5EB6 /* SceneDelegate.swift */,
-				AE2D945A2981A182003E5EB6 /* ViewController.swift */,
-				AE2D945C2981A182003E5EB6 /* Main.storyboard */,
-				AE2D945F2981A184003E5EB6 /* Assets.xcassets */,
-				AE2D94612981A184003E5EB6 /* LaunchScreen.storyboard */,
 				AE2D94642981A184003E5EB6 /* Info.plist */,
+				AE2D94742981BD59003E5EB6 /* Configs */,
+				AE2D94732981BD4A003E5EB6 /* Coordinators */,
+				AE2D94722981BD42003E5EB6 /* Core */,
+				AE2D94712981BD33003E5EB6 /* Models */,
+				AE2D94702981BD1B003E5EB6 /* Resources */,
+				AE2D946F2981BD10003E5EB6 /* Services */,
+				AE2D946E2981BD0A003E5EB6 /* Utils */,
+				AE2D946D2981BD04003E5EB6 /* View */,
+				AE2D946C2981BCDC003E5EB6 /* ViewControllers */,
 			);
 			path = "yugioh-mvvm";
+			sourceTree = "<group>";
+		};
+		AE2D946C2981BCDC003E5EB6 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AEB1A5652995751E00424D3A /* Enums */,
+				AEB1A5642995750800424D3A /* Protocol */,
+				AEB1A55E299572AF00424D3A /* Common */,
+				AEB1A55029943A8400424D3A /* HomeViewModel.swift */,
+				AEB1A557299566D300424D3A /* HomeViewController.swift */,
+				AEB1A55229943B5F00424D3A /* Types.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AE2D946D2981BD04003E5EB6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AEB1A55929956D9500424D3A /* CardListCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AE2D946E2981BD0A003E5EB6 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		AE2D946F2981BD10003E5EB6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AE2D947D2981CB5B003E5EB6 /* Errors */,
+				AE2D947B2981C99F003E5EB6 /* Service.swift */,
+				AE2D94802981CC10003E5EB6 /* CardService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AE2D94702981BD1B003E5EB6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AE2D945F2981A184003E5EB6 /* Assets.xcassets */,
+				AE2D94612981A184003E5EB6 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AE2D94712981BD33003E5EB6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AE2D94752981BF46003E5EB6 /* CardImage.swift */,
+				AE2D94772981BFD0003E5EB6 /* Card.swift */,
+				AE2D94792981C0C3003E5EB6 /* CardResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AE2D94722981BD42003E5EB6 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				AE2D94562981A182003E5EB6 /* AppDelegate.swift */,
+				AE2D94582981A182003E5EB6 /* SceneDelegate.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		AE2D94732981BD4A003E5EB6 /* Coordinators */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinators;
+			sourceTree = "<group>";
+		};
+		AE2D94742981BD59003E5EB6 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
+		AE2D947D2981CB5B003E5EB6 /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				AE2D947E2981CB6B003E5EB6 /* CustomError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		AEB1A55E299572AF00424D3A /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				AEB1A55F299572CD00424D3A /* AppController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		AEB1A5642995750800424D3A /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				AEB1A54E29943A2A00424D3A /* RequestDelegateProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		AEB1A5652995751E00424D3A /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				AEB1A54C299439AE00424D3A /* ViewState.swift */,
+			);
+			path = Enums;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +226,11 @@
 			dependencies = (
 			);
 			name = "yugioh-mvvm";
+			packageProductDependencies = (
+				AEB1A5552995668100424D3A /* SnapKit */,
+				AEB1A55C29956DDB00424D3A /* Kingfisher */,
+				AEB1A5622995736300424D3A /* ProgressHUD */,
+			);
 			productName = "yugioh-mvvm";
 			productReference = AE2D94532981A182003E5EB6 /* yugioh-mvvm.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +259,11 @@
 				Base,
 			);
 			mainGroup = AE2D944A2981A182003E5EB6;
+			packageReferences = (
+				AEB1A5542995668100424D3A /* XCRemoteSwiftPackageReference "SnapKit" */,
+				AEB1A55B29956DDB00424D3A /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				AEB1A5612995736300424D3A /* XCRemoteSwiftPackageReference "ProgressHUD" */,
+			);
 			productRefGroup = AE2D94542981A182003E5EB6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +280,6 @@
 			files = (
 				AE2D94632981A184003E5EB6 /* LaunchScreen.storyboard in Resources */,
 				AE2D94602981A184003E5EB6 /* Assets.xcassets in Resources */,
-				AE2D945E2981A182003E5EB6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +290,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE2D945B2981A182003E5EB6 /* ViewController.swift in Sources */,
+				AEB1A560299572CD00424D3A /* AppController.swift in Sources */,
+				AEB1A55A29956D9500424D3A /* CardListCell.swift in Sources */,
+				AE2D947F2981CB6B003E5EB6 /* CustomError.swift in Sources */,
+				AEB1A54D299439AE00424D3A /* ViewState.swift in Sources */,
+				AE2D94812981CC10003E5EB6 /* CardService.swift in Sources */,
+				AE2D947C2981C99F003E5EB6 /* Service.swift in Sources */,
+				AEB1A558299566D300424D3A /* HomeViewController.swift in Sources */,
 				AE2D94572981A182003E5EB6 /* AppDelegate.swift in Sources */,
+				AE2D947A2981C0C3003E5EB6 /* CardResponse.swift in Sources */,
+				AEB1A55129943A8400424D3A /* HomeViewModel.swift in Sources */,
+				AEB1A55329943B5F00424D3A /* Types.swift in Sources */,
+				AE2D94782981BFD0003E5EB6 /* Card.swift in Sources */,
+				AEB1A54F29943A2A00424D3A /* RequestDelegateProtocol.swift in Sources */,
 				AE2D94592981A182003E5EB6 /* SceneDelegate.swift in Sources */,
+				AE2D94762981BF46003E5EB6 /* CardImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AE2D945C2981A182003E5EB6 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AE2D945D2981A182003E5EB6 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AE2D94612981A184003E5EB6 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +448,6 @@
 				INFOPLIST_FILE = "yugioh-mvvm/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +475,6 @@
 				INFOPLIST_FILE = "yugioh-mvvm/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +512,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		AEB1A5542995668100424D3A /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		AEB1A55B29956DDB00424D3A /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		AEB1A5612995736300424D3A /* XCRemoteSwiftPackageReference "ProgressHUD" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/relatedcode/ProgressHUD";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		AEB1A5552995668100424D3A /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AEB1A5542995668100424D3A /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		AEB1A55C29956DDB00424D3A /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AEB1A55B29956DDB00424D3A /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		AEB1A5622995736300424D3A /* ProgressHUD */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = AEB1A5612995736300424D3A /* XCRemoteSwiftPackageReference "ProgressHUD" */;
+			productName = ProgressHUD;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AE2D944B2981A182003E5EB6 /* Project object */;
 }
